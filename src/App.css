@@ -60,6 +60,11 @@ p, .a-CTA, input, header .navigation-bar a, .copyright li, .contact .form form l
   text-decoration-line: none !important;
   cursor:initial;
 }
+
+.fa-asterisk{
+  margin-bottom: 30px !important;
+}
+
 .underline, header .text .button button:hover, .contact .form form button:hover, .contact .text i:hover {
   background-color: orange;
 }
