@@ -1,6 +1,338 @@
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css";
+
 .mapDiv {
   padding: 0;
   margin: 0;
-  height: 100%;
+  height: 91%;
   width: 100%;
 }
+
+.navbar-nav > li > a:hover {
+  color: orange !important;
+}
+
+.active {
+font-weight:450 !important;
+}
+
+/*Start Global*/
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+h2 {
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-size: 100px;
+  font-weight: normal;
+  margin: 0 0 -55px;
+}
+h1, h3 {
+  font-family: "Source Code Pro", sans-serif;
+  font-size: 47px;
+  font-weight: bold;
+  letter-spacing: 9.4px;
+  margin: 0 0 15px;
+}
+p {
+  color: #515151;
+  line-height: 27px;
+}
+.a-CTA {
+  border-bottom: 2px solid orange;
+  padding-bottom: 4px;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+}
+/*End Global*/
+
+/*Start Mutual*/
+p, .a-CTA, input, header .navigation-bar a, .copyright li, .contact .form form label, .contact .form form button {
+  font-family: Cabin, sans-serif;
+}
+.fa-asterisk, .a-CTA, h2, header .navigation-bar a:hover, header nav.active .navigation-bar a:hover, footer .social-media .links a:hover, .copyright .info li a, .copyright .CTA li a:hover {
+  color: orange !important;
+  text-decoration-line: none !important;
+  cursor:initial;
+}
+.underline, header .text .button button:hover, .contact .form form button:hover, .contact .text i:hover {
+  background-color: orange;
+}
+header .text, .about-us .text, .information .text, .menu .box-model, .menu .text, .fixed-image .text, footer, .copyright, .contact .text i {
+  text-align: center;
+}
+.about-us, .information, .about-us .image-container, .information .image-container, .menu, .menu .menu-image-container, footer .contact-container, .copyright ul, .contact {
+  display: flex;
+}
+
+header, header .text, header .text .arrow .left, header .text .arrow .right, .space, .menu .box-image-container, .fixed-image .text, .copyright, .copyright .arrow-up {
+  position: relative;
+}
+header .navigation-bar .underline, header .text .arrow .left:after, header .text .arrow .right:after, header .svg-down, header .arrow-down, .space .text, .menu .box-model .close, .menu .box-model .arrow .arrow-right,.menu .box-model .arrow .arrow-left, .menu .box-image-container .box-image, .copyright .svg-up {
+  position: absolute;
+}
+.space .text, .fixed-image .text, .menu .box-image-container, .menu .box-image-container .box-image {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.dots .active, header nav.active, header nav.active .toggle.active span, header nav .toggle span, header .navigation-bar .underline, header .text .arrow .left, header .text .arrow .right, header .text .button button, .contact form button {
+  background-color: #fff;
+}
+h1, h3, header .navigation-bar a, header .text span, .menu .box-model .close:hover, footer .text h2, footer .text p, footer .social-media .links a, .contact .text i, .contact .form form button {
+  color: #fff;
+}
+header nav, header .navigation-bar.show, header .navigation-bar a:hover .underline, header .navigation-bar li.active .underline, header .text .arrow .left:after, .menu .box-model, .copyright .arrow-up {
+  left: 0;
+}
+header .text .arrow .left:after, header .text .arrow .right:after, header .text span, footer .social-media .links a, footer .newsletter i, .copyright .arrow-up, .contact .text i, .contact .form form label {
+  display: inline-block;
+}
+/*End Mutual*/
+
+/*Start Header*/
+header {
+  height: calc(60vh - 22px);
+  background-size: cover;
+  background: url(../src/Elements/PANO0015.JPG) fixed bottom;
+  background-size:cover;
+  padding: 20px 70px;
+}
+
+header .text {
+  top: 24%;
+}
+header .text h1 {
+  margin-bottom: 0;
+}
+header .text .arrow .left, header .text .arrow .right {
+  height: 3px;
+  width: 100px;
+}
+header .text .arrow .left {
+  left: -4%;
+}
+header .text .arrow .right {
+  right: -4%;
+}
+header .text .arrow .left:after, header .text .arrow .right:after {
+  content: '';
+  border: 10px solid transparent;
+  border-left-color: #fff;
+  top: -8px;
+}
+header .text .arrow .right:after {
+  right: 0;
+  border-color: transparent #fff transparent transparent;
+}
+header .text .arrow .fa-asterisk {
+  vertical-align: super;
+}
+header .text span {
+  font-family: "Source Code Pro", sans-serif;
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+
+/*End Header*/
+
+/*Start About-Us*/
+.about-us, .information {
+  padding: 60px;
+}
+.about-us .text, .information .text {
+  flex: 50%;
+  padding: 40px 52px 0 0;
+}
+.about-us .text h3, .information .text h3 {
+  color: #000;
+}
+.about-us .text .fa-asterisk, .information .text .fa-asterisk {
+  color: #9a9998;
+}
+.about-us .image-container, .information .image-container {
+  flex: 50%;
+}
+
+.about-us .image, .information .image {
+  margin-left: 20px;
+}
+/*End About-Us*/
+
+/*Start space*/
+.space .image {
+  height: 350px;
+  background: url("https://www.lapatilla.com/wp-content/uploads/2019/03/unimet-public.jpg") fixed center;
+  background-size: cover;
+}
+/*End space*/
+
+.copyright {
+  padding: 15px 40px 30px;
+  background-color: #262526;
+}
+.copyright .svg-up {
+  top: 0;
+  left: 50%;
+  margin-left: -96px;
+  margin-top: -50px;
+}
+.copyright .arrow-up {
+  width: 40px;
+  height: 30px;
+  top: -45px;
+  color: #fff;
+  line-height: 1.9
+}
+.copyright ul {
+  justify-content: center;
+}
+.copyright li {
+  color: #919191;
+  font-size: 14px;
+}
+.copyright li:not(:last-of-type):after {
+  content: '•';
+  margin: 10px;
+}
+.copyright .CTA {
+  margin-top: 25px;
+}
+.copyright .CTA li a {
+  color: #919191;
+}
+
+/*End Footer*/
+
+/*End Home Page*/
+
+/*Start Home Page Responsive*/
+
+@media (max-width: 1200px) {
+  .menu, .about-us, .information {
+      padding: 60px 40px;
+  }
+  .about-us .text, .information .text {
+      padding: 0 32px 0 0;
+  }
+  .about-us .image-container, .information .image-container {
+      align-items: center;
+  }
+  .menu .text {
+      padding: 0 0 0 32px;
+  }
+}
+
+.copyright {
+  padding: 15px 40px 30px;
+  background-color: #262526;
+}
+.copyright .svg-up {
+  top: 0;
+  left: 50%;
+  margin-left: -96px;
+  margin-top: -50px;
+}
+.copyright .arrow-up {
+  width: 40px;
+  height: 30px;
+  top: -45px;
+  color: #fff;
+  line-height: 1.9
+}
+.copyright ul {
+  justify-content: center;
+}
+.copyright li {
+  color: #919191;
+  font-size: 14px;
+}
+.copyright li:not(:last-of-type):after {
+  content: '   ';
+  margin: 10px;
+}
+
+.copyright li{
+  list-style: none;
+}
+
+.copyright .CTA {
+  margin-top: 25px;
+}
+.copyright .CTA li a {
+  color: #919191;
+}
+
+@media (max-width: 992px) {
+  body {
+      padding: 0;
+  }
+  .dots {
+      display: none;
+  }
+  header {
+      height: calc(100vh - 10px);
+  }
+  header nav .logo {
+      padding-left: 0;
+  }
+  .about-us {
+      display: block;
+      padding-top: 50px;
+  }
+  .about-us .text , .information .text {
+      padding: 0 0 40px;
+  }
+  .about-us .image-container .image1, .information .image-container .image1 {
+      margin-left: 0px;
+  }
+  .menu {
+      display: block;
+      padding: 60px 20px 60px 40px;
+  }
+  .menu .text {
+      padding: 20px 20px 0 0;
+  }
+  .information {
+      display: block;
+      padding: 30px 20px 60px;
+  }
+  .contact {
+      display: block;
+      padding: 78px 20px;
+  }
+  .contact .form {
+      margin-left: 0;
+      margin-top: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  h3, h1 {
+      font-size: 40px;
+  }
+  h2 {
+      font-size:90px
+  }
+  header {
+      padding: 0;
+  }
+
+  .about-us, .information {
+      padding: 60px 20px;
+  }
+  .menu {
+      padding: 60px 0 60px 20px;
+  }
+}
+/*End Home Page Responsive*/
+
+@import url(https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro);
+
+@import url(https://use.fontawesome.com/releases/v5.1.0/css/all.css);
