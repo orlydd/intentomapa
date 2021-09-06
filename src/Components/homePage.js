@@ -1,5 +1,6 @@
 import Navbar from "../Elements/Navbar";
 import "../App.css"; 
+import Footer from "../Elements/footer";
 
 const HomePage = () => {
   
@@ -58,21 +59,7 @@ const HomePage = () => {
           </div>
       </div>
   </div>
-
-  <div class="copyright">
-      <i class="fas fa-angle-double-up arrow-up"></i>
-      <ul class="info">
-          <li>&copy; ROSA 2017</li>
-          <li>13 Hanway Square, London</li>
-          <li>Tel: 71494563</li>
-          <li>Handcrafted with love by <a href="#">Pixelgrade</a> Team</li>
-      </ul>
-      <ul class="CTA">
-          <li><a href="#">PERMISSIONS AND COPYRIGHT</a></li>
-          <li><a href="#">CONTACT THE TEAM</a></li>
-      </ul>
-  </div>
-
+  <Footer/>
           </>
       );
   }
