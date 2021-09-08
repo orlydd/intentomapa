@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 const links = [
   {
     name: "Acerca del proyecto",
-    link: ""
+    link: "/"
   },
   {
     name:"Mapa",
@@ -26,7 +26,7 @@ const Navbar_ = (props) => {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="">
+          <NavbarBrand href="/">
             <a>
               <img src="http://simpleicon.com/wp-content/uploads/map-7.svg" width="30" height="30" class="d-inline-block align-top" alt=""/>
             </a>
