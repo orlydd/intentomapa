@@ -5,14 +5,12 @@ const Footer = () => {
         <>
         <div class="copyright">
             <ul class="info">
-                <li>&copy; ROSA 2017</li>
-                <li>13 Hanway Square, London</li>
-                <li>Tel: 71494563</li>
-                <li>Handcrafted with love by <a href="#">Pixelgrade</a> Team</li>
+                <li>Universidad Metropolitana</li>
+                <li>Distribuidor metropolitano Caracas, 1060, Miranda</li>
+                <li>Telf:(0212)240.3200</li>
             </ul>
             <ul class="CTA">
-                <li><a href="#">PERMISSIONS AND COPYRIGHT</a></li>
-                <li><a href="#">CONTACT THE TEAM</a></li>
+                <li>Proyecto realizado por Orly Dahan Durán como Trabajo de Investigación para el título de Ing. en sistemas</li>
             </ul>
         </div>
         </>

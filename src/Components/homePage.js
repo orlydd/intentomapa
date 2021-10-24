@@ -22,11 +22,10 @@ const HomePage = () => {
 
         <div class="about-us">
             <div class="text">
-                <h2>Discover</h2>
-                <h3>Our Story</h3>
+                <h2>Acerca de</h2>
+                <h3>Nosotros</h3>
                 <div><i class="fas fa-asterisk"></i></div>
-                <p>Rosa is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking the market and a bustling London intersection.</p>
-                <div><a class="a-CTA" href="">About Us</a></div>
+                <p>SIG-UNIMET es un proyecto que nace de la necesidad de actualizar el inventario cartográfico de la Universidad Metropolitana; para ello se generó un prototipo de sistema de información geográfica mejor conocido como SIG mediante un sistema gestor de base de datos que permite gestionar y planear proyectos en el ámbito geográfico del campus universitario. El producto obtenido fue desarrollado utilizando principalmente las herramientas proporcionadas por el software ArcGIS®. </p>
             </div>
             <div class="image-container">
                 <div class="image image1">
@@ -44,18 +43,21 @@ const HomePage = () => {
 
         <div class="information">
       <div class="text">
-          <h2>Culinary</h2>
-          <h3>Delight</h3>
+          <h2>Proceso de</h2>
+          <h3>Desarrollo</h3>
           <div><i class="fas fa-asterisk"></i></div>
-          <p>We promise an intimate and relaxed dining experience that offers something different to local and foreign patrons and ensures you enjoy a memorable food experience every time.</p>
-          <div><a class="a-CTA" href="#">Make a Reservation</a></div>
+          <p>El mapa presentado fue posible de generar gracias a los datos obtenidos mediante el vuelo de un sistema aéreo tripulado por control remoto, el 
+            levantamiento de las coordenadas de los puntos de control a través de equipos especializados de doble frecuencia
+             y el posterior procesamiento de la información aerofotogramétrica. Así, se generó una herramienta asociada a la inteligencia de la 
+            localización que permita facilitar procesos operativos y administrativos de toma de decisiones 
+            dentro de la institución universitaria.  </p>
       </div>
       <div class="image-container">
           <div class="image image1">
-              <img src="https://i.imgur.com/4DUOzdn.png" alt="Food Photo"/>
+              <img src="https://i.imgur.com/4DUOzdn.png" alt="University Photo"/>
           </div>
           <div class="image image2">
-              <img src="https://i.imgur.com/qAKkiDJ.png" alt="Food Photo"/>
+              <img src="https://i.imgur.com/qAKkiDJ.png" alt="University Photo"/>
           </div>
       </div>
   </div>

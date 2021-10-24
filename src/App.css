@@ -6,12 +6,9 @@
   height: 91%;
   width: 100%;
 }
-.containerDash{
-  padding-top: 10% !important;
-  background: -webkit-linear-gradient(110deg, #fdcd3b 60%, orange 60%);
-  background: -o-linear-gradient(110deg, #fdcd3b 60%, orange 60%);
-  background: -moz-linear-gradient(110deg, #fdcd3b 60%, orange 60%);
-  background: linear-gradient(110deg, #fdcd3b 60%, orange 60%);
+
+.image-container{
+  margin-top: 5% !important;
 }
 
 .navbar-nav > li > a:hover {
@@ -32,6 +29,7 @@ body {
 
 img {
   max-width: 100%;
+  height: max-content;
 }
 h2 {
   font-family: 'Herr Von Muellerhoff', cursive;
@@ -119,7 +117,7 @@ header {
 
 .headerDash{
   height: calc(60vh - 22px);
-  background: url(https://www.unimet.edu.ve/wp-content/uploads/2019/10/DSC03484.jpg) fixed left;
+  background: url(https://www.unimet.edu.ve/wp-content/uploads/2019/10/DSC03484.jpg) fixed center;
   background-size:cover;
   padding: 20px 70px;
 }
@@ -192,7 +190,7 @@ header .text span {
 /*Start space*/
 .space .image {
   height: 350px;
-  background: url("https://www.lapatilla.com/wp-content/uploads/2019/03/unimet-public.jpg") fixed center;
+  background: url("https://www.unimet.edu.ve/wp-content/uploads/2019/09/DSC96635666-2.jpg") fixed top;
   background-size: cover;
 }
 /*End space*/

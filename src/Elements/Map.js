@@ -14,37 +14,44 @@ function Map() {
 
   useEffect(() => {
     if (mapDiv.current) {
-      /**
-       * Initialize application
-       */
+
       const webmap = new WebMap({
         portalItem: {
+          /* Codigo de identificacion del mapa en Arcgis Online */
           id: "5985c47d55d14848b6337548fe4be9c9"
         }
       });
 
+      /*Se muestra el mapa */
       const view = new MapView({
         container: mapDiv.current,
         map: webmap,
         zoom:8
       });
 
+      /* Se agregan las herramientas interactivas del mapa */
+
+      /* Escala del mapa */
       const scalebar = new ScaleBar({
         view: view
       });
 
       view.ui.add(scalebar, "bottom-right");
 
+      /*Leyenda del mapa */
       const legend = new Legend ({
         view: view
       });
 
+      /* Barra de búsqueda */
       const search = new Search ({
-        view: view
+        view: view,
+        popupEnabled: false
       });
 
       view.ui.add(search, "top-right");
 
+      /* Leyenda */
       const legendExpand = new Expand({
         expandIconClass: "esri-icon-legend", 
         view: view,
@@ -53,6 +60,7 @@ function Map() {
       
       view.ui.add(legendExpand, "top-left");
 
+      /* Lista de capas */
       const layerlist = new LayerList({
         view: view
       });
