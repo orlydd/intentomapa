@@ -18,7 +18,7 @@ function Map() {
       const webmap = new WebMap({
         portalItem: {
           /* Codigo de identificacion del mapa en Arcgis Online */
-          id: "5985c47d55d14848b6337548fe4be9c9"
+          id: "0842cc62f9774fef95e0201aa0cf7802"
         }
       });
 
