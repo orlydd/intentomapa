@@ -31,7 +31,8 @@ img {
   max-width: 100%;
   height: max-content;
 }
-h2 {
+
+.coursiveText{
   font-family: 'Herr Von Muellerhoff', cursive;
   font-size: 100px;
   font-weight: normal;
@@ -57,10 +58,10 @@ p {
 /*End Global*/
 
 /*Start Mutual*/
-p, .a-CTA, input, header .navigation-bar a, .copyright li, .contact .form form label, .contact .form form button {
+p, .a-CTA, input, .headerSub .navigation-bar a, .copyright li, .contact .form form label, .contact .form form button {
   font-family: Cabin, sans-serif;
 }
-.fa-asterisk, .a-CTA, h2, header .navigation-bar a:hover, header nav.active .navigation-bar a:hover, footer .social-media .links a:hover, .copyright .info li a, .copyright .CTA li a:hover {
+.fa-asterisk, .a-CTA, .coursiveText, .headerSub .navigation-bar a:hover, .headerSub nav.active .navigation-bar a:hover, footer .social-media .links a:hover, .copyright .info li a, .copyright .CTA li a:hover {
   color: orange !important;
   text-decoration-line: none !important;
   cursor:initial;
@@ -70,20 +71,20 @@ p, .a-CTA, input, header .navigation-bar a, .copyright li, .contact .form form l
   margin-bottom: 30px !important;
 }
 
-.underline, header .text .button button:hover, .contact .form form button:hover, .contact .text i:hover {
+.underline, .headerSub .text .button button:hover, .contact .form form button:hover, .contact .text i:hover {
   background-color: orange;
 }
-header .text, .about-us .text, .information .text, .menu .box-model, .menu .text, .fixed-image .text, footer, .copyright, .contact .text i {
+.headerSub .text, .about-us .text, .information .text, .menu .box-model, .menu .text, .fixed-image .text, footer, .copyright, .contact .text i {
   text-align: center;
 }
 .about-us, .information, .about-us .image-container, .information .image-container, .menu, .menu .menu-image-container, footer .contact-container, .copyright ul, .contact {
   display: flex;
 }
 
-header, header .text, header .text .arrow .left, header .text .arrow .right, .space, .menu .box-image-container, .fixed-image .text, .copyright, .copyright .arrow-up {
+.headerSub, .headerSub .text, .headerSub .text .arrow .left, .headerSub .text .arrow .right, .space, .menu .box-image-container, .fixed-image .text, .copyright, .copyright .arrow-up {
   position: relative;
 }
-header .navigation-bar .underline, header .text .arrow .left:after, header .text .arrow .right:after, header .svg-down, header .arrow-down, .space .text, .menu .box-model .close, .menu .box-model .arrow .arrow-right,.menu .box-model .arrow .arrow-left, .menu .box-image-container .box-image, .copyright .svg-up {
+.headerSub .navigation-bar .underline, .headerSub .text .arrow .left:after, .headerSub .text .arrow .right:after, .headerSub .svg-down, .headerSub .arrow-down, .space .text, .menu .box-model .close, .menu .box-model .arrow .arrow-right,.menu .box-model .arrow .arrow-left, .menu .box-image-container .box-image, .copyright .svg-up {
   position: absolute;
 }
 .space .text, .fixed-image .text, .menu .box-image-container, .menu .box-image-container .box-image {
@@ -92,22 +93,22 @@ header .navigation-bar .underline, header .text .arrow .left:after, header .text
   transform: translate(-50%,-50%);
 }
 
-.dots .active, header nav.active, header nav.active .toggle.active span, header nav .toggle span, header .navigation-bar .underline, header .text .arrow .left, header .text .arrow .right, header .text .button button, .contact form button {
+.dots .active, .headerSub nav.active, .headerSub nav.active .toggle.active span, .headerSub nav .toggle span, .headerSub .navigation-bar .underline, .headerSub .text .arrow .left, .headerSub .text .arrow .right, .headerSub .text .button button, .contact form button {
   background-color: #fff;
 }
-h1, h3, header .navigation-bar a, header .text span, .menu .box-model .close:hover, footer .text h2, footer .text p, footer .social-media .links a, .contact .text i, .contact .form form button {
+h1, h3, .headerSub .navigation-bar a, .headerSub .text span, .menu .box-model .close:hover, footer .text .cousiveText, footer .text p, footer .social-media .links a, .contact .text i, .contact .form form button {
   color: #fff;
 }
-header nav, header .navigation-bar.show, header .navigation-bar a:hover .underline, header .navigation-bar li.active .underline, header .text .arrow .left:after, .menu .box-model, .copyright .arrow-up {
+.headerSub nav, .headerSub .navigation-bar.show, .headerSub .navigation-bar a:hover .underline, .headerSub .navigation-bar li.active .underline, .headerSub .text .arrow .left:after, .menu .box-model, .copyright .arrow-up {
   left: 0;
 }
-header .text .arrow .left:after, header .text .arrow .right:after, header .text span, footer .social-media .links a, footer .newsletter i, .copyright .arrow-up, .contact .text i, .contact .form form label {
+.headerSub .text .arrow .left:after, .headerSub .text .arrow .right:after, .headerSub .text span, footer .social-media .links a, footer .newsletter i, .copyright .arrow-up, .contact .text i, .contact .form form label {
   display: inline-block;
 }
 /*End Mutual*/
 
-/*Start Header*/
-header {
+/*Start .headerSub*/
+.headerSub {
   height: calc(60vh - 22px);
   background-size: cover;
   background: url(../src/Elements/PANO0015.JPG) fixed bottom;
@@ -127,42 +128,42 @@ header {
   padding: 10%;
 }
 
-header .text {
+.headerSub .text {
   top: 24%;
 }
-header .text h1 {
+.headerSub .text h1 {
   margin-bottom: 0;
 }
-header .text .arrow .left, header .text .arrow .right {
+.headerSub .text .arrow .left, .headerSub .text .arrow .right {
   height: 3px;
   width: 100px;
 }
-header .text .arrow .left {
+.headerSub .text .arrow .left {
   left: -4%;
 }
-header .text .arrow .right {
+.headerSub .text .arrow .right {
   right: -4%;
 }
-header .text .arrow .left:after, header .text .arrow .right:after {
+.headerSub .text .arrow .left:after, .headerSub .text .arrow .right:after {
   content: '';
   border: 10px solid transparent;
   border-left-color: #fff;
   top: -8px;
 }
-header .text .arrow .right:after {
+.headerSub .text .arrow .right:after {
   right: 0;
   border-color: transparent #fff transparent transparent;
 }
-header .text .arrow .fa-asterisk {
+.headerSub .text .arrow .fa-asterisk {
   vertical-align: super;
 }
-header .text span {
+.headerSub .text span {
   font-family: "Source Code Pro", sans-serif;
   font-size: 15px;
   margin-bottom: 12px;
 }
 
-/*End Header*/
+/*End .headerSub*/
 
 /*Start About-Us*/
 .about-us, .information {
@@ -298,7 +299,7 @@ header .text span {
   .dots {
       display: none;
   }
-  header, .headerDash {
+  .headerSub, .headerDash {
       height: calc(80vh - 5px);
   }
 
@@ -337,10 +338,10 @@ header .text span {
   h3, h1 {
       font-size: 40px;
   }
-  h2 {
+  .coursiveText {
       font-size:90px
   }
-  header {
+  .headerSub {
       padding: 0;
   }
 

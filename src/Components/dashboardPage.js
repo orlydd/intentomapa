@@ -8,7 +8,7 @@ const dashboardPage = () => {
         <Navbar/>
         <div className="headerDash">
             <div class="text">
-                <h2>Proyecto sig-unimet</h2>
+                <div class="coursiveText">Proyecto sig-unimet</div>
                 <h1>Panel de control</h1>
             </div>
         </div>

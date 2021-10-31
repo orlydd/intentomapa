@@ -8,9 +8,9 @@ const HomePage = () => {
           <>
           <Navbar/>
 
-        <header>
+        <div class="headerSub">
             <div class="text">
-                <h2>Universidad Metropolitana</h2>
+                <div class="coursiveText">Universidad Metropolitana</div>
                 <h1>Proyecto SIG-UNIMET</h1>
                 <div class="arrow">
                     <span class="left"></span>
@@ -18,11 +18,11 @@ const HomePage = () => {
                     <span class="right"></span>
                 </div>
             </div>
-        </header>
+        </div>
 
         <div class="about-us">
             <div class="text">
-                <h2>Acerca de</h2>
+                <div class="coursiveText">Acerca de</div>
                 <h3>Nosotros</h3>
                 <div><i class="fas fa-asterisk"></i></div>
                 <p>SIG-UNIMET es un proyecto que nace de la necesidad de actualizar el inventario cartográfico de la Universidad Metropolitana; para ello se generó un prototipo de sistema de información geográfica mejor conocido como SIG mediante un sistema gestor de base de datos que permite gestionar y planear proyectos en el ámbito geográfico del campus universitario. El producto obtenido fue desarrollado utilizando principalmente las herramientas proporcionadas por el software ArcGIS®. </p>
@@ -43,7 +43,7 @@ const HomePage = () => {
 
         <div class="information">
       <div class="text">
-          <h2>Proceso de</h2>
+          <div class="coursiveText">Proceso de</div>
           <h3>Desarrollo</h3>
           <div><i class="fas fa-asterisk"></i></div>
           <p>El mapa presentado fue posible de generar gracias a los datos obtenidos mediante el vuelo de un sistema aéreo tripulado por control remoto, el 
